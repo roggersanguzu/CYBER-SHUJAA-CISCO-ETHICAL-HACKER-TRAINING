@@ -1,5 +1,5 @@
 # CYBER-SHUJAA-CISCO-ETHICAL-HACKER-TRAINING
-{
+
 The First Steps of Ethical Hacking include the following:
 First and foremost is having a conversation with the Client and Clearly Knowing the scope of operation during the Process.
 Then Signing a caontract and also clearly stating the Forms of Payment.
@@ -44,4 +44,4 @@ show hosts//Gives hosts.
 This then calls for the Installations of brute hosts  module to get  sub Domains.
 
 dnsrecon -d h4cker.org // this used to provide a detailed information about a Domain.
-}
+
