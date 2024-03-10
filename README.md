@@ -35,13 +35,13 @@ hackertarget
 Brute_host.
 
 # Steps of Recon-ng Usage.
-install a given module.
-modules load ......modulename.....//Loads the required module.
-options unset SOURCE.
-options set SOURCE ........domainnameOVconcentration(Target).......
-input command// Checks whether the Source Domain has been Set.
-show hosts//Gives hosts.
-This then calls for the Installations of brute hosts  module to get  sub Domains.
+* install a given module.
+* modules load ......modulename.....//Loads the required module.
+* options unset SOURCE.
+* options set SOURCE ........domainnameOVconcentration(Target).......
+* input command// Checks whether the Source Domain has been Set.
+* show hosts//Gives hosts.
+* This then calls for the Installations of brute hosts  module to get  sub Domains.
 
-dnsrecon -d h4cker.org // this used to provide a detailed information about a Domain.
+* dnsrecon -d h4cker.org // this used to provide a detailed information about a Domain.
 
