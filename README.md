@@ -65,4 +65,23 @@ Brute_host.
 * nslookup command.
 * dig h4cker.org mx (Used to Get information about Email Servers).
 *N.B Many of these tools are here https://github.com/The-Art-of-Hacking/h4cker/tree/master/osint
-#
+
+# Finding Domain Name Servers For a given Domain.
+# //Option one.
+* step 1: nslookup
+* step 2: set type=ns
+* step 3: cisco.com (The Domain name of Concentration)
+# //Option Two
+*step 1: nslookup
+* step 2: set type=ns
+* step 3: cisco.com (The Domain name of Concentration)
+# Other Options.
+* Occasionally it is desirable to use a different DNS server to perform lookups. This may be necessary if the local DNS server
+  is unable to resolve an address or resolves the host name to an internal private address and you need to obtain the internet accessible address of the host.
+* nslookup skillsforall 8.8.8.8 ( nslookup ....prefered Domain name.... and then Google ip address).
+* // Whois cisco.com (This command is mainly used to obtain information about the Domain registration information).
+
+# Use whois to determine IP address registration information.
+![image](https://github.com/RoggersAnguzu/CYBER-SHUJAA-CISCO-ETHICAL-HACKER-TRAINING/assets/141458053/5762637b-de87-4f46-aca4-4d7492b1ab22)
+
+
