@@ -21,8 +21,7 @@ The various ways of Information gathering are:
          workspace save ........workspacename........
          workspace remove ........workspacename........
          workspace open/load ........workspacename........
-
-        db schema //CHECKS on the schema of the recon-ng Database.
+         db schema //CHECKS on the schema of the recon-ng Database.
         }
 
 # MARKET PLACE COMMANDS.
@@ -30,9 +29,11 @@ marketplace search // Checking available modules for usage in the recon-ng.
 marketplace install .........needed module(Full domain)..........
 marketplace info ......modulename......
 
+
 # SOME OF THE BEST MODULES FOR DOMAIN/IP ADDRESS GATHERING.
 hackertarget
 Brute_host.
+
 
 # Steps of Recon-ng Usage.
 * install a given module.
@@ -42,10 +43,12 @@ Brute_host.
 * input command// Checks whether the Source Domain has been Set.
 * show hosts//Gives hosts.
 * This then calls for the Installations of brute hosts  module to get  sub Domains.
+  
 
 * dnsrecon -d h4cker.org // this used to provide a detailed information about a Domain.
 * Incase all the modules need to be installed, (marketplace install recon)
 * Inorder to be be able to get infomation about a given recon-ng File(options list)
+  
 
 # RECON-NG RESULTS MANIPULATION.
 * Donot forget the marketplace intall reporting/ ( This command is used to install the reporting module)
@@ -54,8 +57,12 @@ Brute_host.
 * use the options list commmand to find the Locaton of the file because it is hidden in most Cases.
 * Everytime Load the module first before using it.(Example options load reporting/html)
   
+  
 # DNS LOOKUP
 * dnsrecon -d h4cker.org(This command is used to provide all the details about the Given Domain name.).
 * dig h4cker.org ( The dig command is used to get more information aabout a Domain name); But remember that the
   same work has been solved by spiderfoot, recon-ng tool.
-* 
+* nslookup command.
+* dig h4cker.org mx (Used to Get information about Email Servers).
+*N.B Many of these tools are here https://github.com/The-Art-of-Hacking/h4cker/tree/master/osint
+#
