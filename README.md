@@ -84,4 +84,11 @@ Brute_host.
 # Use whois to determine IP address registration information.
 ![image](https://github.com/RoggersAnguzu/CYBER-SHUJAA-CISCO-ETHICAL-HACKER-TRAINING/assets/141458053/5762637b-de87-4f46-aca4-4d7492b1ab22)
 
+# Digging More information about Domain.
+* dig strichat.com ns
+* dig -x 172.268.0.34 // This is the Exact opposite of DNS, it aims at getting the associanted DNS other than the ip address
+# Employee Intelligence Gathering.
+* This involves the Social media and many more others.
+
+
 
