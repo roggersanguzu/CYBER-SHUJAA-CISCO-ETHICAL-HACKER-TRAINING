@@ -49,7 +49,7 @@ Brute_host.
 
 # RECON-NG RESULTS MANIPULATION.
 * Donot forget the marketplace intall reporting/ ( This command is used to install the reporting module)
-* options set CREAOR Roggers.// it is a must to have a creator
+* options set CREATOR Roggers.// it is a must to have a creator
 * options set CUSTOMER Coders.// It is a must to heave Customer.
 * use the options list commmand to find the Locaton of the file because it is hidden in most Cases.
 * Everytime Load the module first before using it.(Example options load reporting/html)
