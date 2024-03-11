@@ -89,6 +89,9 @@ Brute_host.
 * dig -x 172.268.0.34 // This is the Exact opposite of DNS, it aims at getting the associanted DNS other than the ip address
 # Employee Intelligence Gathering.
 * This involves the Social media and many more others.
+# Site Certificates.
+* Informations about an organization can also be got via the Site Certificates.(Normally Looks like the PadLock ON the Browser).
+* 
 
 
 
