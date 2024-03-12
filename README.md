@@ -42,9 +42,7 @@ Brute_host.
 * options set SOURCE ........domainnameOVconcentration(Target).......
 * input command// Checks whether the Source Domain has been Set.
 * show hosts//Gives hosts.
-* This then calls for the Installations of brute hosts  module to get  sub Domains.
-  
-
+* This then calls for the Installations of brute hosts  module to get  sub Domain.
 * dnsrecon -d h4cker.org // this used to provide a detailed information about a Domain.
 * Incase all the modules need to be installed, (marketplace install recon)
 * Inorder to be be able to get infomation about a given recon-ng File(options list)
