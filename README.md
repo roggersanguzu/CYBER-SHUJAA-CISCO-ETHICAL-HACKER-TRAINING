@@ -98,9 +98,13 @@ Brute_host.
 *-n: Show numerical addresses instead of resolving hostnames.
 *-a: Show all connections and listening ports.
 *-p: Show the process ID (PID) and name of the program to which each socket belongs.
+
 # Vulnerability Scans.
 * nmap -sV --script vulners --script-args mincvss=4 h4cker.org
 
-
+# SearchSpoilt.
+* After doing a thorough search, then the searchsploit ..........The Vulnerability Website........... // This givens all the Sources of understanding the Vulnerability.
+* enum4linux .......IPaddress/Domain Name..........// This command is is used to provide information about the users, groups , privileges and password strength on the
+* Target machine.
 
 
