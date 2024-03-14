@@ -108,6 +108,17 @@ Brute_host.
 * Target machine.
 
 # PACKET CAPTURE.
-sudo tcpdump -i eth0 -s 0 -w capture.pcap // This captures Files and then them in a file with .pcap extension 
+sudo tcpdump -i eth0 -s 0 -w capture.pcap // This captures Files and then them in a file with .pcap extension.
+
+# GVM.(GREEN BONE VULNERABILITY MANAGEMENT).
+* sudo gvm-check-setup.
+* sudo gvm-start
+* Web UI (Greenbone Security Assistant): https://127.0.0.1:9392
+* sudo gvm-stop.
+
+* Username: admin
+* Password: kali
+* Simple Challenge. 10.6.6.23 or gravemind.vm.
+
 
 
