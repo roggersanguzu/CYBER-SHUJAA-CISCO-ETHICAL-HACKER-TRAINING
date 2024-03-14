@@ -69,6 +69,8 @@ Brute_host.
 * step 1: nslookup
 * step 2: set type=ns
 * step 3: cisco.com (The Domain name of Concentration)
+* server n1.cisco.com // This will then give the Details of the Second Name server.
+* set type=any // This will give all the necessary information the needed Domain.
 # //Option Two
 *step 1: nslookup
 * step 2: set type=ns
@@ -91,11 +93,14 @@ Brute_host.
 * Informations about an organization can also be got via the Site Certificates.(Normally Looks like the PadLock ON the Browser).
 * The command netstat -tunap is used to display information about network connections, routing tables, and network interfaces on a Unix-like operating system. Here's what each option means:
 
-*-t: Show TCP connections.
-*-u: Show UDP connections.
+*-t: Show TCP connections. // For Example netstat -tunap
+*-u: Show UDP connections.//For Example netstat -uunap
 *-n: Show numerical addresses instead of resolving hostnames.
 *-a: Show all connections and listening ports.
 *-p: Show the process ID (PID) and name of the program to which each socket belongs.
+# Vulnerability Scans.
+* nmap -sV --script vulners --script-args mincvss=4 h4cker.org
+
 
 
 
