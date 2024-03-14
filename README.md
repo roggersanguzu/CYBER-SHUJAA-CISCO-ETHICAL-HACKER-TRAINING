@@ -89,7 +89,13 @@ Brute_host.
 * This involves the Social media and many more others.
 # Site Certificates.
 * Informations about an organization can also be got via the Site Certificates.(Normally Looks like the PadLock ON the Browser).
-* 
+* The command netstat -tunap is used to display information about network connections, routing tables, and network interfaces on a Unix-like operating system. Here's what each option means:
+
+*-t: Show TCP connections.
+*-u: Show UDP connections.
+*-n: Show numerical addresses instead of resolving hostnames.
+*-a: Show all connections and listening ports.
+*-p: Show the process ID (PID) and name of the program to which each socket belongs.
 
 
 
