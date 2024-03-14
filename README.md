@@ -107,4 +107,7 @@ Brute_host.
 * enum4linux .......IPaddress/Domain Name..........// This command is is used to provide information about the users, groups , privileges and password strength on the
 * Target machine.
 
+# PACKET CAPTURE.
+sudo tcpdump -i eth0 -s 0 -w capture.pcap // This captures Files and then them in a file with .pcap extension 
+
 
