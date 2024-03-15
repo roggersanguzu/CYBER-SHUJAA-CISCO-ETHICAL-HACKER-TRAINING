@@ -112,13 +112,15 @@ sudo tcpdump -i eth0 -s 0 -w capture.pcap // This captures Files and then them i
 
 # GVM.(GREEN BONE VULNERABILITY MANAGEMENT).
 * sudo gvm-check-setup.
+* * nmap -sV --script vulners --script-args mincvss=4 h4cker.org
 * sudo gvm-start
 * Web UI (Greenbone Security Assistant): https://127.0.0.1:9392
 * sudo gvm-stop.
 
-* Username: admin
-* Password: kali
+* Username: admin //By Default it has been built in the Cisco Environment.
+* Password: kali // By Default in the CISCO Environment.
 * Simple Challenge. 10.6.6.23 or gravemind.vm.
+
 
 
 
