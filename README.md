@@ -121,6 +121,34 @@ sudo tcpdump -i eth0 -s 0 -w capture.pcap // This captures Files and then them i
 * Password: kali // By Default in the CISCO Environment.
 * Simple Challenge. 10.6.6.23 or gravemind.vm.
 
+  # Scocial Engineering.
+  * setoolkit // Mainly For Fishing.
+  * Zphisher // Clones Various Account to Collect Login Credentials.
+
+* # Sofar
+* I can Clone Various Social Media Accounts as a way to Show my Knowledge is Social Engineering.                                                                                                                                                                                                                                           
+* [01] Facebook      [11] Twitch       [21] DeviantArt                                                                                                                                                                                       
+* [02] Instagram     [12] Pinterest    [22] Badoo                                                                                                                                                                                            
+* [03] Google        [13] Snapchat     [23] Origin                                                                                                                                                                                           
+* [04] Microsoft     [14] Linkedin     [24] DropBox                                                                                                                                                                                          
+* [05] Netflix       [15] Ebay         [25] Yahoo                                                                                                                                                                                            
+* [06] Paypal        [16] Quora        [26] Wordpress                                                                                                                                                                                        
+* [07] Steam         [17] Protonmail   [27] Yandex                                                                                                                                                                                           
+* [08] Twitter       [18] Spotify      [28] StackoverFlow                                                                                                                                                                                    
+* [09] Playstation   [19] Reddit       [29] Vk                                                                                                                                                                                               
+* [10] Tiktok        [20] Adobe        [30] XBOX                                                                                                                                                                                             
+* [31] Mediafire     [32] Gitlab       [33] Github                                                                                                                                                                                           
+* [34] Discord       [35] Roblox
+
+# XSS This is the attack that is normally known as Cross Site Scripting.
+* It is mainly Done Using the BEef Software.
+* The Software can be got from any of the Links Below.
+* https://github.com/beefproject/beef and  https://beefproject.com/
+* The Software is Launched by the Command:
+*sudo beef-xss.
+* username: beef.
+* passwd: ------ the one for Logging into the VM.             
+
 
 
 
