@@ -148,6 +148,38 @@ sudo tcpdump -i eth0 -s 0 -w capture.pcap // This captures Files and then them i
 *sudo beef-xss.
 * username: beef.
 * passwd: ------ the one for Logging into the VM.             
+# To  Fasten Social Media Looking for Some.
+* We can Use Sherlock
+ * python3 sherlock user1  // To look for a single user.
+ * python3 sherlock user1, user2 // To Look for Many People.
+
+
+ * # clone the repo
+$ git clone https://github.com/sherlock-project/sherlock.git
+
+# change the working directory to sherlock
+$ cd sherlock
+
+# install the requirements
+$ python3 -m pip install -r requirements.txt
+
+# SMS ATTACK.
+* A link can actiually be embedded in the Messsage Text to Gather a Target's Information.
+
+# NETWORK ATTACKS AND VULNERABILIITIES.
+The include the Following.
+* Windows name resolution-based attacks and exploits
+* DNS cache poisoning attacks
+* Attacks and exploits against Server Message Block (SMB) implementations
+* Simple Network Management Protocol (SNMP) vulnerabilities and exploits
+* Simple Mail Transfer Protocol (SMTP) vulnerabilities and exploits
+* File Transfer Protocol (FTP) vulnerabilities and exploits
+* Pass-the-hash attacks
+* On-path attacks (previously known as man-in-the-middle [MITM] attacks)
+* SSL stripping attacks
+* Denial-of-service (DoS) and distributed denial-of-service (DDoS) attacks
+* Network access control (NAC) bypass
+* Virtual local area network (VLAN) hopping attacks
 
 
 
