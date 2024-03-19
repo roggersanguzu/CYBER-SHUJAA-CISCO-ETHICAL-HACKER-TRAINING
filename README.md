@@ -97,7 +97,7 @@ Brute_host.
 *-u: Show UDP connections.//For Example netstat -uunap
 *-n: Show numerical addresses instead of resolving hostnames.
 *-a: Show all connections and listening ports.
-*-p: Show the process ID (PID) and name of the program to which each socket belongs.
+*-p: Show the process ID (PID) and name of the program to which each socket belongs..
 
 # Vulnerability Scans.
 * nmap -sV --script vulners --script-args mincvss=4 h4cker.org
@@ -180,6 +180,45 @@ The include the Following.
 * Denial-of-service (DoS) and distributed denial-of-service (DDoS) attacks
 * Network access control (NAC) bypass
 * Virtual local area network (VLAN) hopping attacks
+* Network Basic In and Out put knowledge is needed /(NetBIOs). // This is mainly needed to acquire information about the
+
+  # NETBIOS.
+  * Taking over the NetBios involves having knowledeg about what is really Does.
+  * UDP port 137: NetBIOS Name Service
+  * UDP port 138: NetBIOS Datagram Service
+  * TCP port 139: NetBIOS Session Service
+  * TCP port 445: SMB protocol, used for sharing files between different operating systems, including Windows and Unix-based systems.
+  * Main Idea is to take control over the NetBios.
+ 
+  * The command that works here is:
+  * searchsploit smb. //
+  * Use the nmap -sN command to find the services available on hosts in the 172.17.0.0 virtual network.
+  * ┌──(root㉿kali)-[/home/kali]
+*└─# nmap -sN 172.17.0.0/24
+
+*Performing an Enumeration on the Target.
+* -U find configured users
+
+* -S get a list of file shares
+
+* -G get a list of the groups and their members
+
+* -P list the password policies
+
+* -i get a list of printers
+
+* enum4linux scan on target 172.17.0.2.
+
+//*  List the file shares available on 172.17.0.2 using the enum4linux -S command. Use the verbose option to see the Samba tools that are used to obtain the information.
+*┌──(root㉿kali)-[/home/kali]
+*└─# enum4linux -Sv 172.17.0.2
+
+* enum4linux -a 172.17.0.2 // This is used to find out all the Potential Information about a Given Server.
+
+* ![image](https://github.com/RoggersAnguzu/CYBER-SHUJAA-CISCO-ETHICAL-HACKER-TRAINING/assets/141458053/10b79ba6-6920-42d5-ab56-af606378ad5a)
+* ![image](https://github.com/RoggersAnguzu/CYBER-SHUJAA-CISCO-ETHICAL-HACKER-TRAINING/assets/141458053/3092ef16-2be8-42d0-ab48-9a0ee837c861)
+* ![image](https://github.com/RoggersAnguzu/CYBER-SHUJAA-CISCO-ETHICAL-HACKER-TRAINING/assets/141458053/465e5882-f85f-431a-9cf5-08b78bd97428)
+* 
 
 
 
