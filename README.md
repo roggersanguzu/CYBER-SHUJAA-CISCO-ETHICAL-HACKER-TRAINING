@@ -184,12 +184,14 @@ The include the Following.
 
   # NETBIOS.
   * Taking over the NetBios involves having knowledeg about what is really Does.
-  * UDP port 137: NetBIOS Name Service
-  * UDP port 138: NetBIOS Datagram Service
+  * TCP port 135: Remote Proceedure Call.
+  * UDP port 137: NetBIOS Name Service.
+  * UDP port 138: NetBIOS Datagram Service.
   * TCP port 139: NetBIOS Session Service
   * TCP port 445: SMB protocol, used for sharing files between different operating systems, including Windows and Unix-based systems.
   * Main Idea is to take control over the NetBios.
- 
+  * LLMR For mainly for Logical. N.B: It is important to Turn off the NetBios Ports in the Network Services.
+  * Spoofing refers the Process of imitating the machines on a network.
   * The command that works here is:
   * searchsploit smb. //
   * Use the nmap -sN command to find the services available on hosts in the 172.17.0.0 virtual network.
@@ -209,16 +211,20 @@ The include the Following.
 
 * enum4linux scan on target 172.17.0.2.
 
+* Enum4linux takes the advantages of smb weaknesses making it advantageous for the PenTestese.
+
 //*  List the file shares available on 172.17.0.2 using the enum4linux -S command. Use the verbose option to see the Samba tools that are used to obtain the information.
 *┌──(root㉿kali)-[/home/kali]
 *└─# enum4linux -Sv 172.17.0.2
 
 * enum4linux -a 172.17.0.2 // This is used to find out all the Potential Information about a Given Server.
 
+* It is not a good Idea to use the Same machine to do various Task for Example ftp service and the Backend Usage Purposes.
+
 * ![image](https://github.com/RoggersAnguzu/CYBER-SHUJAA-CISCO-ETHICAL-HACKER-TRAINING/assets/141458053/10b79ba6-6920-42d5-ab56-af606378ad5a)
 * ![image](https://github.com/RoggersAnguzu/CYBER-SHUJAA-CISCO-ETHICAL-HACKER-TRAINING/assets/141458053/3092ef16-2be8-42d0-ab48-9a0ee837c861)
 * ![image](https://github.com/RoggersAnguzu/CYBER-SHUJAA-CISCO-ETHICAL-HACKER-TRAINING/assets/141458053/465e5882-f85f-431a-9cf5-08b78bd97428)
-* 
+  
 
 
 
