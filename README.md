@@ -224,7 +224,13 @@ The include the Following.
 * ![image](https://github.com/RoggersAnguzu/CYBER-SHUJAA-CISCO-ETHICAL-HACKER-TRAINING/assets/141458053/10b79ba6-6920-42d5-ab56-af606378ad5a)
 * ![image](https://github.com/RoggersAnguzu/CYBER-SHUJAA-CISCO-ETHICAL-HACKER-TRAINING/assets/141458053/3092ef16-2be8-42d0-ab48-9a0ee837c861)
 * ![image](https://github.com/RoggersAnguzu/CYBER-SHUJAA-CISCO-ETHICAL-HACKER-TRAINING/assets/141458053/465e5882-f85f-431a-9cf5-08b78bd97428)
+
+* enum4linux -Sv 172.17.0.2    // This is used to check the Files that are really Sharable.
+* smbclient -L 172.17.0.2 to Check on the Status of the Anonymous Login.
+* smbclient //172.17.0.2/tmp
+
   
+# WIRELESSNETWORKS.
 
 
 
