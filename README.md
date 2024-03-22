@@ -257,7 +257,17 @@ The include the Following.
 * nikto -h ip.txt -o results.html
 
   # SQL injections.
-
-
+  It can allow an unauthorised Person to make any changes in the Data bases for Example.
+* SELECT: Used to obtain data from a database
+* UPDATE: Used to update data in a database
+* DELETE: Used to delete data from a database
+* INSERT INTO: Used to insert new data into a database
+* CREATE DATABASE: Used to create a new database
+* ALTER DATABASE: Used to modify a database
+* CREATE TABLE: Used to create a new table
+* ALTER TABLE: Used to modify a table
+* DROP TABLE: Used to delete a table
+* CREATE INDEX: Used to create an index or a search key element
+* DROP INDEX: Used to delete an index
 
 
