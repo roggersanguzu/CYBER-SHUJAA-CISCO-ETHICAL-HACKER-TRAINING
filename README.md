@@ -45,7 +45,7 @@ Brute_host.
 * This then calls for the Installations of brute hosts  module to get  sub Domain.
 * dnsrecon -d h4cker.org // this used to provide a detailed information about a Domain.
 * Incase all the modules need to be installed, (marketplace install recon)
-* Inorder to be be able to get infomation about a given recon-ng File(options list)
+* Inorder to be be able to get infomation about a given recon-ng File(options list).
   
 
 # RECON-NG RESULTS MANIPULATION.
