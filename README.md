@@ -230,7 +230,21 @@ The include the Following.
 * smbclient //172.17.0.2/tmp
 
   
-# WIRELESSNETWORKS.
+# WEB VULNERABILITIES AND EXPLOITATION.
+* The method: In this example, the method is an HTTP GET, although it could be any of the following:
+* GET: Retrieves information from the server
+* HEAD: Basically the same as GET but returns only HTTP headers and no document body
+* POST: Sends data to the server (typically using HTML forms, API requests, and so on)
+* TRACE: Does a message loopback test along the path to the target resource
+* PUT: Uploads a representation of the specified URI
+* DELETE: Deletes the specified resource
+* OPTIONS: Returns the HTTP methods that the server supports
+* CONNECT: Converts the request connection to a transparent TCP/IP tunnel.
+* The URI and the path-to-resource field: This represents the path portion of the requested URL.
+* The request version-number field: This specifies the version of HTTP used by the client.
+* The user agent: In this example, Chrome was used to access the website. In the packet capture you see the following:
+* User-Agent: 
+
 
 
 
