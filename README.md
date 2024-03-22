@@ -243,8 +243,20 @@ The include the Following.
 * The URI and the path-to-resource field: This represents the path portion of the requested URL.
 * The request version-number field: This specifies the version of HTTP used by the client.
 * The user agent: In this example, Chrome was used to access the website. In the packet capture you see the following:
-* User-Agent: 
+* User-Agent:
 
+* 
+# Starting Sessions.
+* nikto --help
+* nikto -h ip.txt(This should be having the ip addresses)// This mainly applies only if there are really Ip addresses to deal with.
+* nikto -h 172.16.4.7 // This only happens is there is a single ip address to be dealt with.
+* nikto -h cisco.com // Dealing wih the domain names is also allowed.
+* After performing the Vulnerability scanning, it is a good practice to research about them using the links that are provided to them.
+* After Scanning them, the file showing results has to be created in any of the following formats. CSV,HTML,SQL,TXT,XML. For example:
+* nikto -h 172.17.0.5 /or File having IPs/ Or Domain -o results.html .
+* nikto -h ip.txt -o results.html
+
+  # SQL injections.
 
 
 
