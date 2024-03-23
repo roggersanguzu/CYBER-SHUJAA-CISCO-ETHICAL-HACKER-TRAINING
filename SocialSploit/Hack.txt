@@ -1,0 +1,23 @@
+
+[+] ###############################
+[+] Objetivo -> netflix 
+[+] Fecha = Fri Mar 22 18:52:43 UTC 2024
+[+] IP = 127.0.0.1
+User-Agent:
+User-Agent:
+User-Agent:
+[+] ###############################
+[+] Objetivo -> netflix 
+[+] Fecha = Fri Mar 22 18:53:13 UTC 2024
+[+] IP = 197.139.58.10
+[+] ###############################
+[+] Objetivo -> netflix 
+[+] Fecha = Fri Mar 22 18:53:25 UTC 2024
+[+] IP = 197.139.58.10
+[+] ###############################
+[+] Objetivo -> netflix 
+[+] Fecha = Fri Mar 22 18:54:07 UTC 2024
+[+] IP = 197.139.58.10
+[+] UserName = mike@fmail.com
+[+] Password = snakemanisgoodd
+echo [+] ###############################
