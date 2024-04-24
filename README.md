@@ -5,7 +5,7 @@ First and foremost is having a conversation with the Client and Clearly Knowing 
 Then Signing a caontract and also clearly stating the Forms of Payment.
 Clearly Stating the Means of communication.
 
-# INFORMATION GATHERING.
+**INFORMATION GATHERING.** 
 There are various ways of information gathering. The main reason of information gathering is to know the version of 
 systems that are being Used , to know the operating System of the Systems that are being used, to know the level or 
 Extent of Vulnerabilities of the System.
@@ -24,18 +24,18 @@ The various ways of Information gathering are:
          db schema //CHECKS on the schema of the recon-ng Database.
         }
 
-# MARKET PLACE COMMANDS.
+**MARKET PLACE COMMANDS.**
 marketplace search // Checking available modules for usage in the recon-ng.
 marketplace install .........needed module(Full domain)..........
 marketplace info ......modulename......
 
 
-# SOME OF THE BEST MODULES FOR DOMAIN/IP ADDRESS GATHERING.
+**SOME OF THE BEST MODULES FOR DOMAIN/IP ADDRESS GATHERING.**
 hackertarget
 Brute_host.
 
 
-# Steps of Recon-ng Usage.
+**Steps of Recon-ng Usage.**
 * install a given module.
 * modules load ......modulename.....//Loads the required module.
 * options unset SOURCE.
@@ -48,7 +48,7 @@ Brute_host.
 * Inorder to be be able to get infomation about a given recon-ng File(options list).
   
 
-# RECON-NG RESULTS MANIPULATION.
+**RECON-NG RESULTS MANIPULATION.**
 * Donot forget the marketplace intall reporting/ ( This command is used to install the reporting module)
 * options set CREATOR Roggers.// it is a must to have a creator
 * options set CUSTOMER Coders.// It is a must to heave Customer.
@@ -56,7 +56,7 @@ Brute_host.
 * Everytime Load the module first before using it.(Example options load reporting/html)
   
   
-# DNS LOOKUP
+**DNS LOOKUP**
 * dnsrecon -d h4cker.org(This command is used to provide all the details about the Given Domain name.).
 * dig h4cker.org ( The dig command is used to get more information aabout a Domain name); But remember that the
   same work has been solved by spiderfoot, recon-ng tool.
@@ -64,27 +64,27 @@ Brute_host.
 * dig h4cker.org mx (Used to Get information about Email Servers).
 *N.B Many of these tools are here https://github.com/The-Art-of-Hacking/h4cker/tree/master/osint
 
-# Finding Domain Name Servers For a given Domain.
+**Finding Domain Name Servers For a given Domain.**
 # //Option one.
 * step 1: nslookup
 * step 2: set type=ns
 * step 3: cisco.com (The Domain name of Concentration)
 * server n1.cisco.com // This will then give the Details of the Second Name server.
 * set type=any // This will give all the necessary information the needed Domain.
-# //Option Two
+**//Option Two**
 *step 1: nslookup
 * step 2: set type=ns
 * step 3: cisco.com (The Domain name of Concentration)
-# Other Options.
+**Other Options.**
 * Occasionally it is desirable to use a different DNS server to perform lookups. This may be necessary if the local DNS server
   is unable to resolve an address or resolves the host name to an internal private address and you need to obtain the internet accessible address of the host.
 * nslookup skillsforall 8.8.8.8 ( nslookup ....prefered Domain name.... and then Google ip address).
 * // Whois cisco.com (This command is mainly used to obtain information about the Domain registration information).
 
-# Use whois to determine IP address registration information.
+**Use whois to determine IP address registration information.** 
 ![image](https://github.com/RoggersAnguzu/CYBER-SHUJAA-CISCO-ETHICAL-HACKER-TRAINING/assets/141458053/5762637b-de87-4f46-aca4-4d7492b1ab22)
 
-# Digging More information about Domain.
+**Digging More information about Domain.**
 * dig strichat.com ns
 * dig -x 172.268.0.34 // This is the Exact opposite of DNS, it aims at getting the associanted DNS other than the ip address
 # Employee Intelligence Gathering.
@@ -99,7 +99,7 @@ Brute_host.
 *-a: Show all connections and listening ports.
 *-p: Show the process ID (PID) and name of the program to which each socket belongs..
 
-# Vulnerability Scans.
+**Vulnerability Scans.**
 * nmap -sV --script vulners --script-args mincvss=4 h4cker.org
 
 # SearchSpoilt.
@@ -107,10 +107,10 @@ Brute_host.
 * enum4linux .......IPaddress/Domain Name..........// This command is is used to provide information about the users, groups , privileges and password strength on the
 * Target machine.
 
-# PACKET CAPTURE.
+**PACKET CAPTURE.**
 sudo tcpdump -i eth0 -s 0 -w capture.pcap // This captures Files and then them in a file with .pcap extension.
 
-# GVM.(GREEN BONE VULNERABILITY MANAGEMENT).
+**GVM.(GREEN BONE VULNERABILITY MANAGEMENT).**
 * sudo gvm-check-setup.
 * * nmap -sV --script vulners --script-args mincvss=4 h4cker.org
 * sudo gvm-start
@@ -121,11 +121,11 @@ sudo tcpdump -i eth0 -s 0 -w capture.pcap // This captures Files and then them i
 * Password: kali // By Default in the CISCO Environment.
 * Simple Challenge. 10.6.6.23 or gravemind.vm.
 
-  # Scocial Engineering.
+  **Scocial Engineering.**
   * setoolkit // Mainly For Fishing.
   * Zphisher // Clones Various Account to Collect Login Credentials.
 
-* # Sofar
+* **Sofar**
 * I can Clone Various Social Media Accounts as a way to Show my Knowledge is Social Engineering.                                                                                                                                                                                                                                           
 * [01] Facebook      [11] Twitch       [21] DeviantArt                                                                                                                                                                                       
 * [02] Instagram     [12] Pinterest    [22] Badoo                                                                                                                                                                                            
@@ -140,7 +140,7 @@ sudo tcpdump -i eth0 -s 0 -w capture.pcap // This captures Files and then them i
 * [31] Mediafire     [32] Gitlab       [33] Github                                                                                                                                                                                           
 * [34] Discord       [35] Roblox
 
-# XSS This is the attack that is normally known as Cross Site Scripting.
+**XSS This is the attack that is normally known as Cross Site Scripting.**
 * It is mainly Done Using the BEef Software.
 * The Software can be got from any of the Links Below.
 * https://github.com/beefproject/beef and  https://beefproject.com/
@@ -148,25 +148,25 @@ sudo tcpdump -i eth0 -s 0 -w capture.pcap // This captures Files and then them i
 *sudo beef-xss.
 * username: beef.
 * passwd: ------ the one for Logging into the VM.             
-# To  Fasten Social Media Looking for Some.
+**To  Fasten Social Media Looking for Some.**
 * We can Use Sherlock
  * python3 sherlock user1  // To look for a single user.
  * python3 sherlock user1, user2 // To Look for Many People.
 
 
- * # clone the repo
+**clone the repo**
 $ git clone https://github.com/sherlock-project/sherlock.git
 
-# change the working directory to sherlock
+**change the working directory to sherlock**
 $ cd sherlock
 
-# install the requirements
+**install the requirements**
 $ python3 -m pip install -r requirements.txt
 
-# SMS ATTACK.
+**SMS ATTACK.** 
 * A link can actiually be embedded in the Messsage Text to Gather a Target's Information.
 
-# NETWORK ATTACKS AND VULNERABILIITIES.
+**NETWORK ATTACKS AND VULNERABILIITIES.**
 The include the Following.
 * Windows name resolution-based attacks and exploits
 * DNS cache poisoning attacks
@@ -182,7 +182,7 @@ The include the Following.
 * Virtual local area network (VLAN) hopping attacks
 * Network Basic In and Out put knowledge is needed /(NetBIOs). // This is mainly needed to acquire information about the
 
-  # NETBIOS.
+  **NETBIOS**
   * Taking over the NetBios involves having knowledeg about what is really Does.
   * TCP port 135: Remote Proceedure Call.
   * UDP port 137: NetBIOS Name Service.
@@ -230,7 +230,7 @@ The include the Following.
 * smbclient //172.17.0.2/tmp
 
   
-# WEB VULNERABILITIES AND EXPLOITATION.
+**WEB VULNERABILITIES AND EXPLOITATION.**
 * The method: In this example, the method is an HTTP GET, although it could be any of the following:
 * GET: Retrieves information from the server
 * HEAD: Basically the same as GET but returns only HTTP headers and no document body
@@ -246,7 +246,7 @@ The include the Following.
 * User-Agent:
 
 * 
-# Starting Sessions.
+**Starting Sessions.**
 * nikto --help
 * nikto -h ip.txt(This should be having the ip addresses)// This mainly applies only if there are really Ip addresses to deal with.
 * nikto -h 172.16.4.7 // This only happens is there is a single ip address to be dealt with.
@@ -256,6 +256,5 @@ The include the Following.
 * nikto -h 172.17.0.5 /or File having IPs/ Or Domain -o results.html .
 * nikto -h ip.txt -o results.html
 
-#  Password Cracking.
-* 
+
 
