@@ -81,9 +81,6 @@ Brute_host.
 * nslookup skillsforall 8.8.8.8 ( nslookup ....prefered Domain name.... and then Google ip address).
 * // Whois cisco.com (This command is mainly used to obtain information about the Domain registration information).
 
-**Use whois to determine IP address registration information.** 
-![image](https://github.com/RoggersAnguzu/CYBER-SHUJAA-CISCO-ETHICAL-HACKER-TRAINING/assets/141458053/5762637b-de87-4f46-aca4-4d7492b1ab22)
-
 **Digging More information about Domain.**
 * dig strichat.com ns
 * dig -x 172.268.0.34 // This is the Exact opposite of DNS, it aims at getting the associanted DNS other than the ip address
